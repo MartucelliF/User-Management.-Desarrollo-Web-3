@@ -1,0 +1,47 @@
+@font-face {
+    font-family: deadfont;
+    src: url(../fonts/Dead\ Font\ Walking.otf);
+}
+
+:root{
+    color: white;
+    background-image: url(../img/background.png);
+    font-family: deadfont;
+}
+
+.titulo{
+    display: flex; /*los elementos se ponen en línea, ya no más debajo uno de otro*/
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 225, 0);
+    background-color: rgb(65, 63, 63);
+}
+
+#cabecera{
+    display: flex; /*los elementos se ponen en línea, ya no más debajo uno de otro*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 63, 63);
+    flex-direction: column;
+}
+
+/*COMPONENTE - PARRAFO*/
+.subtitulo{
+    border: black solid 10px;
+}
+
+
+/*COMPONENTE - ITEM*/
+.items{
+    color: black;
+}
+
+.bxs-x-circle{
+    color: red;
+    font-size: 30px;
+}
+
+/*COMPONENTE - CONTADOR*/
+.contador{
+    /*sacarle el alineado en bloque*/
+}
